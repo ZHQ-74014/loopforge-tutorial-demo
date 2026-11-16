@@ -1,0 +1,14 @@
+{
+  "name": "loopforge-tutorial-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free audit log API used by the LoopForge hands-on tutorial.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
